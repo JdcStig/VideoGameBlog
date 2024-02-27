@@ -4,14 +4,10 @@
     <div class="background-image grid grid-cols-1 m-auto">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to become a developer?
+                <h1 class="sm:text-black text-5xl uppercase font-bold text-shadow-md pb-14">
+                    Welcome to a world where pixels come to life and adventures await on our video game blog!
                 </h1>
-                <a 
-                    href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                    Read More
-                </a>
+              
             </div>
         </div>
     </div>
@@ -23,15 +19,15 @@
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Welcome to the Fallout Univrese!! 
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                Fallout 4 is a post-apocalyptic action role-playing game set in a retro-futuristic open world. The game takes place in the year 2287 in the aftermath of a nuclear war, with the player character emerging from a vault to explore the wasteland of the Commonwealth, which is based on the area around Boston, Massachusetts. The main storyline revolves around the protagonist's search for their missing son, encountering various factions, mutants, and other survivors along the way. Players can engage in combat, build settlements, and make choices that affect the outcome of the game.
             </p>
 
-            <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+            <p class="green">
+                To view our articles click the button bellow
             </p>
 
             <a 

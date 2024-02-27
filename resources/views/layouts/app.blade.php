@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Web News') }}</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -17,26 +17,43 @@
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-gray-800 py-6">
+        <header class="bg-blue-900 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        {{ config('app.name', 'Web News') }}
+                        {{ config('app.name', 'Laravel') }}
                     </a>
+
+
+                    
+
+
                 </div>
+              
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
-                    <a class="no-underline hover:underline" href="/">Home</a>
-                    <a class="no-underline hover:underline" href="/blog">Blog</a>
+
+
+                    <a 
+                    href="/blog"
+                    class="no-underline hover:underline text-center font-bold text-xl uppercase">
+                    Add-Article
+                </a>
+
+                <a class="no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
+                    <a class="no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
+
+
                     @guest
-                        <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
-                        <span>{{ Auth::user()->name }}</span>
+                    
+                        <span class="no-underline hover:underline text-center font-bold text-xl uppercase ">{{ Auth::user()->name }} </span>
 
                         <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline"
+                           class="no-underline hover:underline text-center font-bold text-xl uppercase "
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
@@ -47,13 +64,10 @@
             </div>
         </header>
 
-        <div>
-            @yield('content')
-        </div>
-
-        <div>
-            @include('layouts.footer')
-        </div>
+        @yield('content')
+    </div>
+    <div>
+        @include('layouts.footer')
     </div>
 </body>
 </html>
