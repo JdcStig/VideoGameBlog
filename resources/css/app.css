@@ -35,7 +35,35 @@
 }
 
 
+.yellow {
+    --text-opacity: 1;
+    color: #fff773;
+
+  }
+
+  .text-gray-500 {
+    --text-opacity: 1;
+    color: #555555;
+    font-size: 20px;
+   
+  }
 
 
+h3.text-l sm:font-bold text-white-100
+{
+    font-size: 500px;
+}
 
 
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #d3d4ce;
+}
+
+
+.w-screen {
+    width: 100vw;
+    border-width: 1px;
+    border-color: black;
+  }

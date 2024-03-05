@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Fallout') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -21,7 +21,7 @@
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('app.name', 'Fallout') }}
                     </a>
 
 
@@ -35,18 +35,18 @@
 
                     <a 
                     href="/blog"
-                    class="no-underline hover:underline text-center font-bold text-xl uppercase">
+                    class="yellow no-underline hover:underline text-center font-bold text-xl uppercase ">
                     Add-Article
                 </a>
 
-                <a class="no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
-                    <a class="no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
+                <a class="yellow no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
+                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
 
 
                     @guest
-                        <a class="no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
                     

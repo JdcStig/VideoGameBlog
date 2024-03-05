@@ -14,7 +14,7 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+            <img id="page1iconic" src="https://preview.redd.it/bpsczc4b19v81.png?auto=webp&s=94f0dfc481a1b1409738905df8f6a812a2b0b839" width="15000" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
@@ -22,7 +22,7 @@
                 Welcome to the Fallout Univrese!! 
             </h2>
             
-            <p class="py-8 text-gray-500 text-s">
+            <p class="py-10 text-gray-500 text-l">
                 Fallout 4 is a post-apocalyptic action role-playing game set in a retro-futuristic open world. The game takes place in the year 2287 in the aftermath of a nuclear war, with the player character emerging from a vault to explore the wasteland of the Commonwealth, which is based on the area around Boston, Massachusetts. The main storyline revolves around the protagonist's search for their missing son, encountering various factions, mutants, and other survivors along the way. Players can engage in combat, build settlements, and make choices that affect the outcome of the game.
             </p>
 
@@ -32,29 +32,26 @@
 
             <a 
                 href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+                class="yellow uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
                 Find Out More
             </a>
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
+    <div class="yellow text-center p-15 bg-blue-900 text-white">
         <h2 class="text-2xl pb-5 text-l"> 
             I'm an expert in...
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+         Latest News 
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Backend Development
-        </span>
+              From
+           </span>
+           <span class="font-extrabold block text-4xl py-1">
+             THE WASTE LANDS
+          </span>
     </div>
 
     <div class="text-center py-15">
@@ -67,7 +64,7 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+            View and share your experiences and opinions here
         </p>
     </div>
 
@@ -79,7 +76,7 @@
                 </span>
 
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                    Have you had an interesting experience or encounter? Are you looking for fellow fallout community members? Click the button bellow to discover new members.
                 </h3>
 
                 <a 
@@ -90,7 +87,7 @@
             </div>
         </div>
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+            <img src="https://images7.alphacoders.com/131/1317150.png" >
         </div>
     </div>
 @endsection
