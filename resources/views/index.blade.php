@@ -14,7 +14,7 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img id="page1iconic" src="https://preview.redd.it/bpsczc4b19v81.png?auto=webp&s=94f0dfc481a1b1409738905df8f6a812a2b0b839" width="15000" alt="">
+            <img id="page1iconic" src="https://wallpaper.dog/large/963062.jpg" width="1000px" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">

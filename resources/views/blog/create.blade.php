@@ -37,7 +37,9 @@
 
             <div class = dropdown>
             <label for="Topic" class="text-choosetopic">Choose a Topic:</label>
-            <select name="genre" id="genre" class="bg-transparent block border-b-2 w-full h-20 text-xl outline-none">
+            <select name="Topic" id="genre" class="bg-transparent block border-b-2 w-full h-20 text-xl outline-none">
+
+
                 <option value="action">Fallout 1</option>
                 <option value="comedy">Fallout 2</option>
                 <option value="drama">Fallout 3</option>

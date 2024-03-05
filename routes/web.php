@@ -3,6 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\TvShowController;
+
+// ...
+
+Route::get('/tvshow', [TvShowController::class, 'index'])->name('tvshow.index');
+
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +33,6 @@ Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/tvshow', function () {return view('tvshow');});
+
+Route::get('/videoGame', function () {return view('videoGame');});

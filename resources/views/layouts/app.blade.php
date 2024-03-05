@@ -41,7 +41,8 @@
 
                 <a class="yellow no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
                     <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
-
+                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/tvshow">Show</a>
+                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/videoGame">Game</a>
 
                     @guest
                         <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>
