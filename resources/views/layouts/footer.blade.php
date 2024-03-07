@@ -6,22 +6,25 @@
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-white-400">
-                <li class="pb-1">
+
+                <li class="footer">
                     <a href="/">
                         Home
                     </a>
                 </li>
-                <li class="pb-1">
+
+                <li class="footer">
                     <a href="/blog">
                         Blog
                     </a>
                 </li>
-                <li class="pb-1">
+
+                <li class="footer">
                     <a href="/login">
                         Login
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/register">
                         Register
                     </a>
@@ -35,22 +38,22 @@
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-white-400">
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/">
                         What we do
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/">
                         Address
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/">
                         Phone
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/">
                         Contact
                     </a>
@@ -64,22 +67,22 @@
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-white-400">
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/">
                         Why we love tech
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/">
                         Why we love design
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/">
                         Why to use Laravel
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="footer">
                     <a href="/">
                         Why PHP is the best
                     </a>

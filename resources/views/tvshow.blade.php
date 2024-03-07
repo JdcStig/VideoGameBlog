@@ -17,11 +17,12 @@
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-blue-900 py-6">
+        <header class="nav-header py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
                         {{ config('app.name', 'Fallout') }}
+                     
                     </a>
 
 
@@ -35,26 +36,26 @@
 
                     <a 
                     href="/blog"
-                    class="yellow no-underline hover:underline text-center font-bold text-xl uppercase ">
+                    class="white no-underline hover:underline text-center font-bold text-xl uppercase ">
                     Add-Article
                 </a>
 
-                <a class="yellow no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
-                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
-                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/tvshow">Show</a>
-                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/videoGame">Game</a>
+                <a class="white no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
+                    <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
+                    <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/tvshow">Show</a>
+                    <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/videoGame">Game</a>
 
                     @guest
-                        <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
                     
-                        <span class="no-underline hover:underline text-center font-bold text-xl uppercase ">{{ Auth::user()->name }} </span>
+                        <span class="white no-underline hover:underline text-center font-bold text-xl uppercase ">{{ Auth::user()->name }} </span>
 
                         <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline text-center font-bold text-xl uppercase "
+                           class="white no-underline hover:underline text-center font-bold text-xl uppercase "
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
@@ -121,8 +122,9 @@
     
         <p class="py-10 text-show text-l">  One of the most significant aspects of the Fallout universe is its alternate history, where the world diverged from ours after World War II, leading to a retro-futuristic setting. The TV show's success will hinge on its ability to capture this unique aesthetic while weaving a compelling narrative. The expectation is not merely a reiteration of the game's plot but a fresh and engaging perspective that enhances the lore established in Fallout 4.</p>
     
-        <iframe  width="1000" height="550" src="https://www.youtube.com/embed/V-mugKDQDlg?si=Zg01O7cxu_xHtxCx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+        <div class = padding>
+        <iframe  width="1250" height="550" src="https://www.youtube.com/embed/V-mugKDQDlg?si=Zg01O7cxu_xHtxCx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
        
 
             <p class="py-10 text-show text-l">  With rumors circulating about a high production budget and a commitment to staying true to the source material, fans are cautiously optimistic about the show's potential. The casting choices, in particular, have become a hot topic of discussion. The central protagonist, commonly referred to as the "Sole Survivor" in the game, is expected to be a linchpin in the success of the series. The challenge is finding an actor who can embody the complexities of a character who emerges from a cryogenic chamber to witness the devastation of a nuclear apocalypse.</p>
