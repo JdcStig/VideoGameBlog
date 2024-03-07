@@ -46,6 +46,7 @@ class PostsController extends Controller
             'title' => 'required',
             'topic' => 'required',
             'description' => 'required',
+            'check-list' => 'required',
             'image' => 'required|mimes:jpg,png,jpeg|max:5048'
         ]);
 
@@ -57,6 +58,7 @@ class PostsController extends Controller
             'title' => $request->input('title'),
             'topic' => $request->input('topic'),
             'description' => $request->input('description'),
+            'check-list' => $request->input('check-list'),
             'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
             'image_path' => $newImageName,
             'user_id' => auth()->user()->id
@@ -103,6 +105,7 @@ class PostsController extends Controller
             'title' => 'required',
             'topic' => 'required',
             'description' => 'required',
+            'check-list' => 'required',
             
         ]);
 
@@ -111,6 +114,7 @@ class PostsController extends Controller
                 'title' => $request->input('title'),
                 'topic' => $request->input('topic'),
                 'description' => $request->input('description'),
+                'check-list' => $request->input('check-list'),
                 'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
                 'user_id' => auth()->user()->id
             ]);

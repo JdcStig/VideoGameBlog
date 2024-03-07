@@ -34,13 +34,48 @@
             placeholder="Title..."
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
+            <div class = dropdown>
+            <label for="topic" class="text-choosetopic">Choose a Topic:</label>
+            <select name="topic" id="genre" class="bg-transparent block border-b-2 w-full h-20 text-xl outline-none">
 
-            <input 
-            type="topic"
-            name="topic"
-            placeholder="topic..."
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+
+                <option value="Fallout 1">Fallout 1</option>
+                <option value="Fallout 2">Fallout 2</option>
+                <option value="Fallout 3">Fallout 3</option>
+                <option value="Fallout New Vegas">Fallout New Vegas</option>
+                <option value="Fallout 4">Fallout 4</option>
+                <option value="Fallout 76">Fallout 76</option>
+                <option value="Fallout tv series">Fallout tv series</option>
+                <option value="Fallout news">Fallout news</option>
+            </select>
+            </div>
+
+
+            <div class="check-list">
+                <label for="check-list" class="check-list">Choose a Catogory:</label>
+                <div>
             
+                    <input type="checkbox" name="check-list" value="item" class="mr-2">
+                    <label for="item" class="mr-4">Item</label>
+            
+                    <input type="checkbox" name="categories[]" value="random_encounter" class="mr-2">
+                    <label for="random_encounter" class="mr-4">Random Encounter</label>
+            
+                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
+                    <label for="lore" class="mr-4">Lore</label>
+            
+                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
+                    <label for="lore" class="mr-4">Companion</label>
+            
+                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
+                    <label for="lore" class="mr-4">Enemy</label>
+                    
+                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
+                    <label for="lore" class="mr-4">Other</label>
+            
+                </div>
+            
+
 
         <textarea 
             name="description"
