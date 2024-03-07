@@ -55,9 +55,7 @@
     </div>
 
     <div class="text-center py-15">
-        <span class="uppercase text-s text-gray-400">
-            Blog
-        </span>
+        
 
         <h2 class="text-4xl font-bold py-10">
             Recent Posts

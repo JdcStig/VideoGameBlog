@@ -133,4 +133,22 @@ h3.text-l sm:font-bold text-white-100
       display: flex;
       align-items: center;
       justify-content: center;
+      padding:20px;
   }
+
+  .text-show {
+    --text-opacity: 1;
+    color: #555555;
+    font-size: 25px;
+    display:flex;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
+
+  .w-my {
+    width: 100%;
+}
+
+.w-my2 {
+  width: 80%;
+}
