@@ -127,3 +127,10 @@ h3.text-l sm:font-bold text-white-100
   {
     display: flex;
   }
+
+.headers {
+      font-size: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }

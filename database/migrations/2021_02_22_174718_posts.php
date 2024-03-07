@@ -17,8 +17,7 @@ class Posts extends Migration
             $table->increments('id');
             $table->string('slug');
             $table->string('title');
-            $table->string('Topic');
-            $table->json('Categories');
+            $table->string('topic');
             $table->longText('description');
             $table->string('image_path');
             $table->timestamps();
