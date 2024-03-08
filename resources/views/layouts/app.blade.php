@@ -39,17 +39,14 @@
 
                    
                   
-                    <a 
-                    href="/blog"
-                    class="white no-underline hover:underline text-center font-bold text-xl uppercase ">
-                    Add-Article
-                </a>
+                   
                 
 
                 <a class="white no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
                     <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
                     <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/tvshow">Show</a>
                     <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/videoGame">Game</a>
+                    <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/Gallery">Gallery</a>
 
                     @guest
                         <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>

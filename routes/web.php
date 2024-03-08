@@ -36,3 +36,5 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::get('/tvshow', function () {return view('tvshow');});
 
 Route::get('/videoGame', function () {return view('videoGame');});
+
+Route::get('/Gallery', function () {return view('Gallery');});
