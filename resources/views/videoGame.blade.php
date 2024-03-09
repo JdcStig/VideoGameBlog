@@ -1,10 +1,13 @@
 {{-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto --}}
+{{-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_gallery_scroll --}}
+
+
 
 @extends('layouts.app')
 
 @section('content')
 
-
+<body>
 
 <div class="slideshow-container">
 
@@ -56,5 +59,41 @@
 
 
 
+  <div class="left-padding ">
+       
+
+        <div class="game-position">
+            <h2 class="game-header">
+              FALLOUT 4: GAME OF THE YEAR EDITION
+            </h2>
+            
+            <p class="game-text">
+              Get the complete post-nuclear adventure from Bethesda Game Studios and winner of more than 200 ‘Best Of’ awards, including the DICE and BAFTA Game of the Year. Fallout 4 G.O.T.Y. includes the critically acclaimed core game and all six official add-ons including Automatron, Wasteland Workshop, Far Harbor, Contraptions Workshop, Vault-Tec Workshop, and Nuka-World. Please note that Fallout 4 add-ons are not pre loaded on the Fallout 4 disc. You must download all add-ons via the code provided in the box. Additional content is approx. 10-15GB depending on platform.
+
+              As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home. 
+            </p>
+
+        </div>
+
+        <div>
+          <img id="game-image" src="https://images.ctfassets.net/rporu91m20dc/2SL7cJCTf2Y8YoaA0UOOq6/19edacd0ba49d9543c46bd128d3a9e02/fo--buy--goty-box-art.jpg?q=70&&&fm=webp" width="300px" alt="">
+      </div>
+
+        </div>
+    </div>
+
+    <h2 class="game-header-dlc">
+      FALLOUT 4: DLCs
+    </h2>
+
+
+
+    <div class="scroll-container">
+      <img src="https://images.ctfassets.net/rporu91m20dc/U9ao8TIeceY6ae0uA4KWy/25e64c54f35123d4d0a57ebb0300f077/81150_6_1.jpg?q=70&&&fm=webp" alt="Cinque Terre" width="600" height="400">
+      <img src="https://images.ctfassets.net/rporu91m20dc/5CSbWpZ41qoiSKyqCQIq2i/756f132850738c2fe5d570ceba6dc921/82490_6_1.jpg?q=70&&&fm=webp" alt="Forest" width="600" height="400">
+      <img src="https://images.ctfassets.net/rporu91m20dc/1hxMzUKF9kIqWkAE0WIsUG/eebde2e811e66aa446e791d8d43f8060/85225_6_1.jpg?q=70&&&fm=webp" alt="Northern Lights" width="600" height="400">
+      
+    </div>
+</body>
 
 @endsection
