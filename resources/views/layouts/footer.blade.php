@@ -69,22 +69,22 @@
             <ul class="py-4 sm:text-s pt-4 text-white-400">
                 <li class="footer">
                     <a href="/">
-                        Why we love tech
+                        Why we Fallout
                     </a>
                 </li>
                 <li class="footer">
                     <a href="/">
-                        Why we love design
+                        Fallout News
                     </a>
                 </li>
                 <li class="footer">
                     <a href="/">
-                        Why to use Laravel
+                        Fallout Merch
                     </a>
                 </li>
                 <li class="footer">
                     <a href="/">
-                        Why PHP is the best
+                        Bethesda
                     </a>
                 </li>
             </ul>
