@@ -38,3 +38,7 @@ Route::get('/tvshow', function () {return view('tvshow');});
 Route::get('/videoGame', function () {return view('videoGame');});
 
 Route::get('/Gallery', function () {return view('Gallery');});
+
+
+Route::get('/vote', 'VoteController@show')->name('vote.show');
+Route::post('/vote', 'VoteController@vote')->name('vote.vote');
