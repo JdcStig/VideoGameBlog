@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\TvShowController;
+use App\Http\Controllers\VoteController;
 
 // ...
 
@@ -39,6 +40,8 @@ Route::get('/videoGame', function () {return view('videoGame');});
 
 Route::get('/Gallery', function () {return view('Gallery');});
 
+
+Route::post('/vote', [VoteController::class, 'vote']);
 
 Route::get('/vote', 'VoteController@show')->name('vote.show');
 Route::post('/vote', 'VoteController@vote')->name('vote.vote');

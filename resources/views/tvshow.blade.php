@@ -27,10 +27,6 @@
 
 
 
-     
-
-
-
 
     <div class="m-auto sm:m-auto text-left w-my block">
         <h2 class="text-3xl font-extrabold text-gray-600">
@@ -41,9 +37,6 @@
             In a world where post-apocalyptic narratives continue to captivate audiences, the announcement of the Fallout 4 TV show has sent shockwaves through the entertainment industry. As fans eagerly await the adaptation of the beloved video game series, the prospect of exploring the irradiated wasteland from the comfort of their living rooms has ignited excitement and speculation alike.
              The Fallout franchise, known for its immersive storytelling and expansive open-world gameplay, has successfully transported players to a desolate, yet strangely alluring, landscape. Now, the challenge lies in translating the dynamic and complex gaming experience into a cohesive television narrative. The anticipation surrounding the Fallout 4 TV show is palpable, as fans wonder how the rich lore, intricate characters, and morally ambiguous decisions will translate to the episodic format.</p>
     
-          
-
-       
 
        
     </div>
