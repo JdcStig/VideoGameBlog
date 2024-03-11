@@ -3,28 +3,19 @@
 @section('content')
 
 <div id="poll">
-    <h3>Do you like PHP and AJAX so far?</h3>
+    <h3>Brotherhood of steal or The Railroad </h3>
     <form id="voteForm">
         @csrf
         <label>
-            Yes: <input type="radio" name="vote" value="0">
+            The Railroad: <input type="radio" name="vote" value="0">
         </label>
         <label>
-            No: <input type="radio" name="vote" value="1">
+            Brotherhood of steal: <input type="radio" name="vote" value="1">
         </label>
         <button type="button" onclick="getVote()">Submit Vote</button>
     </form>
 </div>
 
-<!-- Second form -->
-<form action="{{ route('vote.vote') }}" method="post">
-    @csrf
-    <!-- your form fields go here -->
-    <label for="comment">Enter your comment:</label>
-    <input type="text" id="comment" name="comment">
-
-    <button type="submit">Submit</button>
-</form>
 
 <script>
     function getVote() {
