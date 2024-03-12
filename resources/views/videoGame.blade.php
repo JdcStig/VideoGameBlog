@@ -104,16 +104,18 @@
       Are you ready to exit the vault and explore The Waste Lands?
     </h2>
 
+<div class="padding">
+    <iframe width="1250" height="550" src="https://www.youtube.com/embed/X5aJfebzkrM?si=66dLNtGhlSZyyTnN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
     <p class = "py-pad text-show text-l">
       In the aftermath of nuclear devastation, the Commonwealth emerges as a sprawling canvas of survival, mutated landscapes, and moral ambiguity. Welcome to the post-apocalyptic masterpiece that is Fallout 4. Developed by Bethesda Game Studios and released in 2015, Fallout 4 takes players on a journey through the remnants of a once-thriving world, inviting them to navigate the challenges of a shattered society and unravel the mysteries that lie beneath the surface.</p>
       <p class = "py-pad text-show text-l">Set in and around the ruins of Boston, Massachusetts, Fallout 4's open-world setting is a stark and hauntingly beautiful portrayal of a world forever altered by nuclear war. The Commonwealth is a vast expanse, showcasing both the desolation of the wasteland and the pockets of life struggling to endure amidst the rubble. From the iconic cityscape to the irradiated wilderness, every corner holds secrets waiting to be uncovered.
     </p>
 
-<div class="padding">
-    <iframe width="1250" height="550" src="https://www.youtube.com/embed/X5aJfebzkrM?si=66dLNtGhlSZyyTnN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
+    <div class="map">
+    <iframe class="falloutmap" src="https://www.google.com/maps/d/embed?mid=1GP3QtQFvcDiezEVWJ-VnteAULXs&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
 
 
 </body>

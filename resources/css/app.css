@@ -403,3 +403,18 @@ div.scroll-container {
   font-weight: 700;
   text-shadow: 0 0 3px #E0C44A;
 }
+
+
+.map
+{
+  display:flex;
+  margin-right: 7%;
+  margin-left: 12.5%;
+}
+
+.falloutmap
+{
+  display: flex;
+  width: 1300px;
+  height: 750px;
+}
