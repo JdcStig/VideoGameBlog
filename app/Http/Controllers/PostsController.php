@@ -32,29 +32,33 @@ class PostsController extends Controller
 
 
     public function index(Request $request)
-{
-    $posts = Post::query();
-
-    if ($request->has('sort')) {
-        if ($request->sort == 'topic_asc') {
-            $posts->orderBy('topic', 'asc');
-        } elseif ($request->sort == 'topic_desc') {
-            $posts->orderBy('topic', 'desc');
+    {
+        $posts = Post::query();
+        $topics = ['Fallout 1','Fallout 2','Fallout 3','Fallout New Vegas','Fallout 4','Fallout 76', 'Fallout tv series', 'Fallout news']; // Example topics array, replace with your actual data
+    
+        if ($request->has('topic')) {
+            $posts->where('topic', $request->topic);
         }
-
-        if ($request->sort == 'date_asc') {
-            $posts->orderBy('updated_at', 'asc');
-        } elseif ($request->sort == 'date_desc') {
-            $posts->orderBy('updated_at', 'desc');
+    
+        if ($request->has('sort')) {
+            if ($request->sort == 'topic_asc') {
+                $posts->orderBy('topic', 'asc');
+            } elseif ($request->sort == 'topic_desc') {
+                $posts->orderBy('topic', 'desc');
+            }
+    
+            if ($request->sort == 'date_asc') {
+                $posts->orderBy('updated_at', 'asc');
+            } elseif ($request->sort == 'date_desc') {
+                $posts->orderBy('updated_at', 'desc');
+            }
         }
-
+    
+        $posts = $posts->get();
+    
+        return view('blog.index', compact('posts', 'topics'));
     }
-
-    $posts = $posts->get();
-
-    return view('blog.index', compact('posts'));
-}
-
+    
     
 
     /**
@@ -160,5 +164,7 @@ class PostsController extends Controller
         return redirect('/blog')
             ->with('message', 'Your post has been deleted!');
     }
+
+    // https://www.w3schools.com/php/php_mysql_select_orderby.asp
 }
 
