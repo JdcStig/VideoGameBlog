@@ -15,6 +15,10 @@
         <option value="">Select</option>
         <option value="topic_asc" @if(request('sort') == 'topic_asc') selected @endif>Topic (Ascending)</option>
         <option value="topic_desc" @if(request('sort') == 'topic_desc') selected @endif>Topic (Descending)</option>
+
+        <option value="date_asc" @if(request('sort') == 'date_asc') selected @endif>Date (Ascending)</option>
+        <option value="date_desc" @if(request('sort') == 'date_desc') selected @endif>Date (Descending)</option>
+
     </select>
 </form>
 

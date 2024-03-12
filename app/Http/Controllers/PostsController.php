@@ -41,6 +41,13 @@ class PostsController extends Controller
         } elseif ($request->sort == 'topic_desc') {
             $posts->orderBy('topic', 'desc');
         }
+
+        if ($request->sort == 'date_asc') {
+            $posts->orderBy('updated_at', 'asc');
+        } elseif ($request->sort == 'date_desc') {
+            $posts->orderBy('updated_at', 'desc');
+        }
+
     }
 
     $posts = $posts->get();
