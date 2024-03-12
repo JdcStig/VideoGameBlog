@@ -30,20 +30,24 @@
 @foreach ($posts as $post)
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="{{ asset('images/' . $post->image_path) }}" alt="">
+            <img src="{{ asset('images/' . $post->image_path) }}" width="450px" alt="">
         </div>
         <div>
-            <h2 class="text-gray-700 font-bold text-5xl pb-4">
+            <h2 class="Blog-Title">
                 {{ $post->title }}
             </h2>
 
             <span class="text-gray-500">
-                By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
+                By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>
             </span>
+<div>
+            <span class="text-gray-500">
+                Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
+            </span>
+</div>
 
-
-            <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
-               topic: {{ $post->topic }}
+            <p class="text-gray-500">
+               Topic: {{ $post->topic }}
             </p>
 
             <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">

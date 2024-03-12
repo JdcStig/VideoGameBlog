@@ -292,10 +292,6 @@ h3.text-l sm:font-bold text-white-100
   transition: background-color 0.6s ease;
 }
 
-.active {
-  
-}
-
 
 .fade {
   animation-name: fade;
@@ -397,3 +393,28 @@ div.scroll-container {
   padding: 10px;
 }
 
+
+.Blog-Title
+{
+  --text-opacity: 1;
+  color:  rgba(63, 131, 248, var(--bg-opacity));
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 0 0 3px #E0C44A;
+}
+
+
+.map
+{
+  display:flex;
+  margin-right: 7%;
+  margin-left: 12.5%;
+}
+
+.falloutmap
+{
+  display: flex;
+  width: 1300px;
+  height: 750px;
+}
