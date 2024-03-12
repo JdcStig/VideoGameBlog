@@ -34,7 +34,7 @@ class PostsController extends Controller
     public function index(Request $request)
     {
         $posts = Post::query();
-        $topics = ['Fallout 1','Fallout 2','Fallout 3','Fallout New Vegas','Fallout 4','Fallout 76', 'Fallout tv series', 'Fallout news']; // Example topics array, replace with your actual data
+        $topics = ['Fallout 1','Fallout 2','Fallout 3','Fallout New Vegas','Fallout 4','Fallout 76', 'Fallout 76',]; // Example topics array, replace with your actual data
     
         if ($request->has('topic')) {
             $posts->where('topic', $request->topic);
@@ -164,7 +164,5 @@ class PostsController extends Controller
         return redirect('/blog')
             ->with('message', 'Your post has been deleted!');
     }
-
-    // https://www.w3schools.com/php/php_mysql_select_orderby.asp
 }
 

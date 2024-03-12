@@ -57,21 +57,21 @@
             
                     <input type="checkbox" name="check-list" value="item" class="mr-2">
                     <label for="item" class="mr-4">Item</label>
-            
-                    <input type="checkbox" name="categories[]" value="random_encounter" class="mr-2">
-                    <label for="random_encounter" class="mr-4">Random Encounter</label>
-            
-                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
-                    <label for="lore" class="mr-4">Lore</label>
-            
-                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
-                    <label for="lore" class="mr-4">Companion</label>
-            
-                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
-                    <label for="lore" class="mr-4">Enemy</label>
-                    
-                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
-                    <label for="lore" class="mr-4">Other</label>
+
+                    <input type="checkbox" name="check-list" value="Encounter" class="mr-2">
+                    <label for="item" class="mr-4">Encounter</label>
+
+                    <input type="checkbox" name="check-list" value="Lore" class="mr-2">
+                    <label for="item" class="mr-4">Lore</label>
+
+                    <input type="checkbox" name="check-list" value="Companion" class="mr-2">
+                    <label for="item" class="mr-4">Companion</label>
+
+                    <input type="checkbox" name="check-list" value="Enemy" class="mr-2">
+                    <label for="item" class="mr-4">Enemy</label>
+
+                    <input type="checkbox" name="check-list" value="Other" class="mr-2">
+                    <label for="item" class="mr-4">Other</label>
             
                 </div>
             
