@@ -9,6 +9,16 @@
     </div>
 </div>
 
+<form action="{{ route('blog.index') }}" method="GET" class="w-4/5 m-auto mt-5 text-right">
+    <label for="sort">Sort by:</label>
+    <select name="sort" id="sort" onchange="this.form.submit()">
+        <option value="">Select</option>
+        <option value="topic_asc" @if(request('sort') == 'topic_asc') selected @endif>Topic (Ascending)</option>
+        <option value="topic_desc" @if(request('sort') == 'topic_desc') selected @endif>Topic (Descending)</option>
+    </select>
+</form>
+
+
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
         <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
@@ -26,6 +36,10 @@
         </a>
     </div>
 @endif
+
+
+
+
 
 @foreach ($posts as $post)
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">

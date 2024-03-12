@@ -18,11 +18,7 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('blog.index')
-            ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
-    }
+
 
     /**
      * Show the form for creating a new resource.
@@ -33,6 +29,26 @@ class PostsController extends Controller
     {
         return view('blog.create');
     }
+
+
+    public function index(Request $request)
+{
+    $posts = Post::query();
+
+    if ($request->has('sort')) {
+        if ($request->sort == 'topic_asc') {
+            $posts->orderBy('topic', 'asc');
+        } elseif ($request->sort == 'topic_desc') {
+            $posts->orderBy('topic', 'desc');
+        }
+    }
+
+    $posts = $posts->get();
+
+    return view('blog.index', compact('posts'));
+}
+
+    
 
     /**
      * Store a newly created resource in storage.
