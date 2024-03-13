@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="w-4/5 m-auto text-left">
+<div class="Create-post-center">
     <div class="py-15">
         <h1 class="text-6xl">
             Create Post
@@ -96,7 +96,7 @@
 
         <button
             type="submit"
-            class="uppercase mt-15 bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            class="yellow uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
             Submit Post
         </button>
     </form>

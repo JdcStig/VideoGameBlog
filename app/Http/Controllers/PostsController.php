@@ -36,7 +36,7 @@ class PostsController extends Controller
         $posts = Post::query();
         $topics = ['Fallout 1','Fallout 2','Fallout 3','Fallout New Vegas','Fallout 4','Fallout 76', 'Fallout 76',]; // Example topics array, replace with your actual data
     
-        if ($request->has('topic')) {
+        if ($request->has('topic') && $request->topic!="") {
             $posts->where('topic', $request->topic);
         }
     

@@ -10,7 +10,7 @@
 </div>
 
 <form action="{{ route('blog.index') }}" method="GET" class="w-4/5 m-auto mt-5 text-right">
-    <label for="sort">Sort by:</label>
+    <label class="font-bold italic text-gray-800" for="sort">Sort by:</label>
     <select name="sort" id="sort" onchange="this.form.submit()">
         <option value="">Select</option>
         <option value="topic_asc" @if(request('sort') == 'topic_asc') selected @endif>Topic (Ascending)</option>
@@ -19,14 +19,14 @@
         <option value="date_desc" @if(request('sort') == 'date_desc') selected @endif>Date (Descending)</option>
     </select>
 
-    <label for="topic">Filter by Topic:</label>
+    <label class="font-bold italic text-gray-800" for="topic">Filter by Topic:</label>
     <select name="topic" id="topic" onchange="this.form.submit()">
         <option value="">All Topics</option>
         @foreach($topics as $topic)
             <option value="{{ $topic }}" @if(request('topic') == $topic) selected @endif>{{ $topic }}</option>
         @endforeach
     </select>
-</form>
+
 
 
 
@@ -39,22 +39,22 @@
 @endif
 
 @if (Auth::check())
-    <div class="pt-15 w-4/5 m-auto">
+    
         <a 
             href="/blog/create"
-            class="bg-blue-500 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+            class="yellow uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
             Create post
         </a>
-    </div>
+    
 @endif
 
-
+</form>
 
 
 
 @foreach ($posts as $post)
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
-        <div>
+    <div class="sm:grid grid-cols-2 gap-20 w-mine mx-auto py-15 border-b border-gray-200">
+        <div class="blogimg">
             <img src="{{ asset('images/' . $post->image_path) }}" width="450px" alt="">
         </div>
         <div>
@@ -75,11 +75,11 @@
                Topic: {{ $post->topic }}
             </p>
 
-            <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
+            <p class="text-xl text-black-mine pt-8 pb-10 leading-8 font-light">
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            <a href="/blog/{{ $post->slug }}" class="yellow uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
                 Keep Reading
             </a>
 

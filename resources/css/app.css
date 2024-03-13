@@ -59,12 +59,11 @@ div#dropdown
 }
 
 
-
 .yellow {
-    --text-opacity: 1;
-    color: #ffffff;
-
-  }
+  --text-opacity: 1;
+  color: #fff773;
+  box-shadow: 0 9px #999;
+}
 
   .text-gray-500 {
     --text-opacity: 1;
@@ -402,6 +401,11 @@ div.scroll-container {
   font-size: 3rem;
   font-weight: 700;
   text-shadow: 0 0 3px #E0C44A;
+}
+
+p.text-xl
+{
+  font-size:15px;
 }
 
 

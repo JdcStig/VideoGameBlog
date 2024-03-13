@@ -76,6 +76,11 @@
 
         </div>
 
+  <div>
+  
+
+  </div>
+
         <div>
           <img id="game-image" src="https://images.ctfassets.net/rporu91m20dc/2SL7cJCTf2Y8YoaA0UOOq6/19edacd0ba49d9543c46bd128d3a9e02/fo--buy--goty-box-art.jpg?q=70&&&fm=webp" width="300px" alt="">
       </div>
