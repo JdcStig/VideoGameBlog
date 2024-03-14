@@ -90,13 +90,12 @@
 
 
     <div class="scroll-container">
-      <img src="https://images.ctfassets.net/rporu91m20dc/U9ao8TIeceY6ae0uA4KWy/25e64c54f35123d4d0a57ebb0300f077/81150_6_1.jpg?q=70&&&fm=webp" alt="DLC1" width="400" height="265">
-      <img src="https://images.ctfassets.net/rporu91m20dc/5CSbWpZ41qoiSKyqCQIq2i/756f132850738c2fe5d570ceba6dc921/82490_6_1.jpg?q=70&&&fm=webp" alt="DLC2" width="400" height="265">
-      <img src="https://images.ctfassets.net/rporu91m20dc/1hxMzUKF9kIqWkAE0WIsUG/eebde2e811e66aa446e791d8d43f8060/85225_6_1.jpg?q=70&&&fm=webp" alt="DLC3" width="400" height="265">
-        <img src="https://images.ctfassets.net/rporu91m20dc/2LvnqrAr3GYGQIKkAyGGYq/cca4b2054390d4ba0f6d96453f607c06/90278_6_1.jpg?q=70&&&fm=webp" alt="DLC4" width="400" height="265">
-        <img src="https://images.ctfassets.net/rporu91m20dc/3Y5Y9u46vuIQcIIsGuQKyi/07fdf7cc51cd049de990d0a55911a26a/89535_6_1.jpg?q=70&&&fm=webp" alt="DLC5" width="400" height="265">
-        <img src="https://images.ctfassets.net/rporu91m20dc/4zh6mXlNeo8aCg4gmUWqyg/4f203a2bcf6d171134bc3dce9803888c/94061_6_1.jpg?q=70&&&fm=webp" alt="DLC6" width="400" height="265">
-        
+      <img class="DLC" src="https://images.ctfassets.net/rporu91m20dc/U9ao8TIeceY6ae0uA4KWy/25e64c54f35123d4d0a57ebb0300f077/81150_6_1.jpg?q=70&&&fm=webp" alt="DLC1" width="400" height="265">
+      <img class="DLC" src="https://images.ctfassets.net/rporu91m20dc/5CSbWpZ41qoiSKyqCQIq2i/756f132850738c2fe5d570ceba6dc921/82490_6_1.jpg?q=70&&&fm=webp" alt="DLC2" width="400" height="265">
+      <img class="DLC" src="https://images.ctfassets.net/rporu91m20dc/1hxMzUKF9kIqWkAE0WIsUG/eebde2e811e66aa446e791d8d43f8060/85225_6_1.jpg?q=70&&&fm=webp" alt="DLC3" width="400" height="265">
+      <img class="DLC" src="https://images.ctfassets.net/rporu91m20dc/2LvnqrAr3GYGQIKkAyGGYq/cca4b2054390d4ba0f6d96453f607c06/90278_6_1.jpg?q=70&&&fm=webp" alt="DLC4" width="400" height="265">
+      <img class="DLC" src="https://images.ctfassets.net/rporu91m20dc/3Y5Y9u46vuIQcIIsGuQKyi/07fdf7cc51cd049de990d0a55911a26a/89535_6_1.jpg?q=70&&&fm=webp" alt="DLC5" width="400" height="265">
+      <img class="DLC" src="https://images.ctfassets.net/rporu91m20dc/4zh6mXlNeo8aCg4gmUWqyg/4f203a2bcf6d171134bc3dce9803888c/94061_6_1.jpg?q=70&&&fm=webp" alt="DLC6" width="400" height="265">
 
     </div>
 

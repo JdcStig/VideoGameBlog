@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="w-4/5 m-auto text-left">
+<div class="Create-post-center">
     <div class="py-15">
         <h1 class="text-6xl">
             Create Post
@@ -20,8 +20,9 @@
         </ul>
     </div>
 @endif
-
+<body>
 <div class="w-4/5 m-auto pt-20">
+    
     <form 
         action="/blog"
         method="POST"
@@ -31,11 +32,11 @@
         <input 
             type="text"
             name="title"
-            placeholder="Title..."
+            placeholder="Title..." 
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
-            <div class = dropdown>
-            <label for="topic" class="text-choosetopic">Choose a Topic:</label>
+            <div class = "check-list">
+            <label for="topic" class="check-list">Choose a Topic:</label>
             <select name="topic" id="genre" class="bg-transparent block border-b-2 w-full h-20 text-xl outline-none">
 
 
@@ -57,21 +58,21 @@
             
                     <input type="checkbox" name="check-list" value="item" class="mr-2">
                     <label for="item" class="mr-4">Item</label>
-            
-                    <input type="checkbox" name="categories[]" value="random_encounter" class="mr-2">
-                    <label for="random_encounter" class="mr-4">Random Encounter</label>
-            
-                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
-                    <label for="lore" class="mr-4">Lore</label>
-            
-                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
-                    <label for="lore" class="mr-4">Companion</label>
-            
-                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
-                    <label for="lore" class="mr-4">Enemy</label>
-                    
-                    <input type="checkbox" name="categories[]" value="lore" class="mr-2">
-                    <label for="lore" class="mr-4">Other</label>
+
+                    <input type="checkbox" name="check-list" value="Encounter" class="mr-2">
+                    <label for="item" class="mr-4">Encounter</label>
+
+                    <input type="checkbox" name="check-list" value="Lore" class="mr-2">
+                    <label for="item" class="mr-4">Lore</label>
+
+                    <input type="checkbox" name="check-list" value="Companion" class="mr-2">
+                    <label for="item" class="mr-4">Companion</label>
+
+                    <input type="checkbox" name="check-list" value="Enemy" class="mr-2">
+                    <label for="item" class="mr-4">Enemy</label>
+
+                    <input type="checkbox" name="check-list" value="Other" class="mr-2">
+                    <label for="item" class="mr-4">Other</label>
             
                 </div>
             
@@ -96,10 +97,11 @@
 
         <button
             type="submit"
-            class="uppercase mt-15 bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            class="yellow uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
             Submit Post
         </button>
     </form>
 </div>
+
 
 @endsection

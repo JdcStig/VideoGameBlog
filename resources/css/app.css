@@ -59,12 +59,11 @@ div#dropdown
 }
 
 
-
 .yellow {
-    --text-opacity: 1;
-    color: #ffffff;
-
-  }
+  --text-opacity: 1;
+  color: #fff773;
+  box-shadow: 0 9px #999;
+}
 
   .text-gray-500 {
     --text-opacity: 1;
@@ -254,6 +253,58 @@ h3.text-l sm:font-bold text-white-100
   }
 }
 
+.cards
+{
+  margin-top:50px;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+ div.card-container 
+ {
+    position: relative;
+    width: 40%;
+    
+  }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #9cb8c2;
+}
+
+.card-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
 
 
 .slideshow-container {
@@ -402,6 +453,11 @@ div.scroll-container {
   font-size: 3rem;
   font-weight: 700;
   text-shadow: 0 0 3px #E0C44A;
+}
+
+p.text-xl
+{
+  font-size:15px;
 }
 
 

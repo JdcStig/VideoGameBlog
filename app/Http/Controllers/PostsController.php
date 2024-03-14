@@ -18,11 +18,7 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('blog.index')
-            ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
-    }
+
 
     /**
      * Show the form for creating a new resource.
@@ -33,6 +29,37 @@ class PostsController extends Controller
     {
         return view('blog.create');
     }
+
+
+    public function index(Request $request)
+    {
+        $posts = Post::query();
+        $topics = ['Fallout 1','Fallout 2','Fallout 3','Fallout New Vegas','Fallout 4','Fallout 76', 'Fallout 76',]; // Example topics array, replace with your actual data
+    
+        if ($request->has('topic') && $request->topic!="") {
+            $posts->where('topic', $request->topic);
+        }
+    
+        if ($request->has('sort')) {
+            if ($request->sort == 'topic_asc') {
+                $posts->orderBy('topic', 'asc');
+            } elseif ($request->sort == 'topic_desc') {
+                $posts->orderBy('topic', 'desc');
+            }
+    
+            if ($request->sort == 'date_asc') {
+                $posts->orderBy('updated_at', 'asc');
+            } elseif ($request->sort == 'date_desc') {
+                $posts->orderBy('updated_at', 'desc');
+            }
+        }
+    
+        $posts = $posts->get();
+    
+        return view('blog.index', compact('posts', 'topics'));
+    }
+    
+    
 
     /**
      * Store a newly created resource in storage.
