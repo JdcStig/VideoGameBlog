@@ -21,37 +21,27 @@
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div class="left">
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        {{ config('app.name', 'Fallout') }}
+                        {{-- {{ config('app.name', 'Fallout') }} --}}
                      
                     </a>
-                    <a>
-                        <img id="page1iconic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpDoul3BNYP3pS06zEeZuUPkfl-nEmoXl7-Q&usqp=CAU" width="100px" alt="">
-                    </a>
 
-
-                    
-
-
+                        <a class="yellow no-underline hover:underline text-center  font-bold text-xl uppercase " href="/"><img id="page1iconic" src="https://i.pinimg.com/564x/28/33/ef/2833efec7f9ba5a15be9d5ef584a7cef.jpg" width="100px" alt=""></a>
+                        
                 </div>
               
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
 
 
-                   
-                  
-                   
-                
-
-                <a class="white no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
-                    <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
-                    <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/tvshow">Show</a>
-                    <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/videoGame">Game</a>
-                    <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="/Gallery">Gallery</a>
+                <a class="yellow no-underline hover:underline text-center  font-bold text-xl uppercase " href="/">Home</a>
+                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/blog">Blog</a>
+                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/tvshow">Show</a>
+                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/videoGame">Game</a>
+                    <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="/Gallery">Gallery</a>
 
                     @guest
-                        <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="white no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="yellow no-underline hover:underline text-center font-bold text-xl uppercase" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
                     
