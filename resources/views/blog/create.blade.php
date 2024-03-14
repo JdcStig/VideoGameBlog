@@ -20,8 +20,9 @@
         </ul>
     </div>
 @endif
-
+<body>
 <div class="w-4/5 m-auto pt-20">
+    
     <form 
         action="/blog"
         method="POST"
@@ -31,11 +32,11 @@
         <input 
             type="text"
             name="title"
-            placeholder="Title..."
+            placeholder="Title..." 
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
-            <div class = dropdown>
-            <label for="topic" class="text-choosetopic">Choose a Topic:</label>
+            <div class = "check-list">
+            <label for="topic" class="check-list">Choose a Topic:</label>
             <select name="topic" id="genre" class="bg-transparent block border-b-2 w-full h-20 text-xl outline-none">
 
 
@@ -101,5 +102,6 @@
         </button>
     </form>
 </div>
+
 
 @endsection

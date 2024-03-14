@@ -61,6 +61,62 @@
 
 
 
+                        <headers>Meet the cast</headers>
+
+                        <div class="cards">
+
+                            <div class="card-container">
+                                <img src="https://assets.aboutamazon.com/dims4/default/3b84476/2147483647/strip/true/crop/1600x900+0+0/resize/1320x743!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F0f%2Fd6%2F284e47d64868a8f0a9b08d9e4f24%2Fabout-amazon-inline-fallout-s1-fg-firstlook-101-035-025-vr059-00086508.jpg" alt="Actor1" class="image">
+                                <div class="overlay">
+                                  <div class="text"><p>Ella Purnell as Jean</p>
+                                  <p>Born 17 September 1996</p>
+                                  <p>English actress</p>
+                                </div>
+                                
+                               
+                                </div>
+                              </div>
+                        
+                        
+                              <div class="card-container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sitI127fIxZpvCPpp806ef-vHYXoIJf9PA&s" alt="Actor2" class="image">
+                                <div class="overlay">
+                                    <div class="text"><p>Aaron Clifton as Maximus</p>
+                                    <p>Born February 28, 1989</p>
+                                    <p>American actor</p>
+                                  </div>
+                                </div>
+                              </div>
+                        
+                        </div>
+
+                        
+                        <div class="cards">
+
+                            <div class="card-container">
+                                <img src="https://hips.hearstapps.com/hmg-prod/images/purnell-kyle-maclachlan-fallout-656625726b9a3.jpg?crop=0.7362454151383795xw:1xh;center,top&resize=1200:*" alt="Actor3" class="image">
+                                <div class="overlay">
+                                    <div class="text"><p>kyle maclachlan as The Overseer</p>
+                                        <p>Born February 22, 1959</p>
+                                        <p>American actror</p>
+                                      </div>
+                                </div>
+                              </div>
+                        
+
+                              
+                        
+                              <div class="card-container">
+                                <img src="https://m.media-amazon.com/images/M/MV5BNDJmOTY2NGUtZDkzNi00YzEzLWJhNGQtMWFmMWRiODgwMDc2XkEyXkFqcGdeQXVyMTE0MzQwMjgz._V1_QL75_UY281_CR31,0,500,281_.jpg" alt="Avatar" class="image">
+                                <div class="overlay">
+                                    <div class="text"><p>Walton Goggins as The Sherif</p>
+                                        <p>Born November 10, 1971</p>
+                                        <p>American actror</p>
+                                      </div>
+                                </div>
+                              </div>
+                        
+                            </div>
 
 
 
