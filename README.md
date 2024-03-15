@@ -1,14 +1,43 @@
 ## Laravel 8 Complete Blog
 
-This repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
+•	Author: Jamie Duffy Creagh <br>
 
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+## Speck
+•	5 pages : Home , Blog , Game , Gallery and Log In
+•   Includes 5 Blogs
 
-## Requirements
-•	PHP 7.3 or higher <br>
-•	Node 12.13.0 or higher <br>
+# Home Page 
+• Images
+• Links
+• Image Grid
+
+# Blog Page 
+• Search Function
+• Filter Fuinction
+• Sort Function
+• Create Post
+• Delete Post
+• Edit Post
+
+# Show Page 
+• Images
+• Gifs
+• Embeded youtube video
+• Cards
+• On hover methods
+
+# Show Page 
+• Slide Show set on a 5 second timer
+• Slider containing Images
+• Embeded youtube video
+• Embeded map with Icons 
+
+# Login Page 
+• Input fields
+• LogIn button
+
+
+
 
 ## Usage <br>
 Setting up your development environment on your local machine: <br>
