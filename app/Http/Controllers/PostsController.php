@@ -34,10 +34,18 @@ class PostsController extends Controller
     public function index(Request $request)
     {
         $posts = Post::query();
-        $topics = ['Fallout 1','Fallout 2','Fallout 3','Fallout New Vegas','Fallout 4','Fallout 76', 'Fallout 76',]; // Example topics array, replace with your actual data
+        $topics = ['Fallout 1','Fallout 2','Fallout 3','Fallout New Vegas','Fallout 4','Fallout 76', 'Fallout 76']; // Example topics array, replace with your actual data
     
         if ($request->has('topic') && $request->topic!="") {
             $posts->where('topic', $request->topic);
+        }
+    
+        if ($request->has('search')) {
+            $search = $request->search;
+            $posts->where(function($query) use ($search) {
+                $query->where('title', 'like', '%'.$search.'%')
+                      ->orWhere('description', 'like', '%'.$search.'%');
+            });
         }
     
         if ($request->has('sort')) {
@@ -58,7 +66,6 @@ class PostsController extends Controller
     
         return view('blog.index', compact('posts', 'topics'));
     }
-    
     
 
     /**

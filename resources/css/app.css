@@ -507,3 +507,35 @@ p.text-xl
   width: 1300px;
   height: 750px;
 }
+
+.center
+{
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: #0066b1;
+  padding:10px;
+  border-radius: 50px;
+  max-width: 250px;
+  margin-left:100px;
+  color:#ddb726;
+}
+
+.center:hover
+{
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: #0066b1;
+  padding:10px;
+  border-radius: 50px;
+  max-width: 250px;
+  margin-left:100px;
+  color:white;
+}

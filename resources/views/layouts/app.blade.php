@@ -45,10 +45,10 @@
                         @endif
                     @else
                     
-                        <span class="white no-underline hover:underline text-center font-bold text-xl uppercase ">{{ Auth::user()->name }} </span>
+                        <span class="yellow no-underline hover:underline text-center font-bold text-xl uppercase ">{{ Auth::user()->name }} </span>
 
                         <a href="{{ route('logout') }}"
-                           class="white no-underline hover:underline text-center font-bold text-xl uppercase "
+                           class="yellow no-underline hover:underline text-center font-bold text-xl uppercase "
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">

@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <div class="sm:grid grid-cols-2 gap-20 w-imgntext mx-auto py-15 border-b border-gray-200">
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
             <img id="page1iconic" src="https://upload.wikimedia.org/wikipedia/en/0/06/Fallout_76_cover.jpg" width="1000px" alt="">
         </div>
