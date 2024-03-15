@@ -37,6 +37,12 @@
 • LogIn button
 
 
+# References 
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://www.w3schools.com/bootstrap4/bootstrap_cards.asp
+
+
 
 
 ## Usage <br>
