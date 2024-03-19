@@ -81,8 +81,8 @@
         <textarea 
             name="description"
             placeholder="Description..."
-            class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none"></textarea>
-
+            class="py-add bg-transparent block border-b-2 w-full h-60 text-xl outline-none"></textarea>
+<div>
         <div class="bg-grey-lighter pt-15">
             <label class="w-44 flex flex-col items-center px-2 py-3 bg-white-rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer">
                 <span class="mt-2 text-base leading-normal">
@@ -101,6 +101,8 @@
             Submit Post
         </button>
     </form>
+</div>
+
 </div>
 
 

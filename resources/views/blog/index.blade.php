@@ -9,11 +9,11 @@
     </div>
 </div>
 
-<form action="{{ route('blog.index') }}" method="GET" class="w-4/5 m-auto mt-5 text-right">
+<form action="{{ route('blog.index') }}" method="GET" class="w-blog-page m-auto mt-5 text-right">
     
     <label class="font-bold italic text-gray-800" for="search">Search:</label>
     <input type="text" name="search" id="search" value="{{ request('search') }}" placeholder="Search posts...">
-    <button type="submit">Search</button>
+    <button class="sb" type="submit">Search</button>
     
     
     <label class="font-bold italic text-gray-800" for="sort">Sort by:</label>
